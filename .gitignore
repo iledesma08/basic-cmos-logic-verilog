@@ -1,0 +1,29 @@
+# Compiled simulation outputs
+*.out
+*.vvp
+
+# VCD waveforms
+*.vcd
+
+# GTKWave save files
+*.sav
+
+# Log and dump files
+*.log
+*.txt
+*.dump
+
+# Editor/IDE files
+*~
+*.swp
+*.bak
+*.tmp
+
+# Folders to exclude
+waves/*.vcd
+sim/*.out
+results/*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
