@@ -120,7 +120,7 @@ gtkwave test/waves/inverter.vcd
 |--------|--------|---------|-------------|
 | Inverter | A | Y = ~A | Output is inverted input |
 | NAND2 | A, B | Y = ~(A & B) | Output is LOW only when both inputs are HIGH |
-| NOR2 | A, B | Y = ~(A | B) | Output is HIGH only when both inputs are LOW |
+| NOR2 | A, B | Y = ~(A \| B) | Output is HIGH only when both inputs are LOW |
 
 ### Simulation Results
 Each testbench exhaustively tests all possible input combinations:
